@@ -13,6 +13,7 @@ We can execute any command from the web-shell.
 
 <h4>Photo of Web Site Home Page :</h4>
 <center><img src="https://github.com/narengavli-svnit-02/web-shell/blob/main/web_shell_02.png"></center>
+<center><img src="https://github.com/narengavli-svnit-02/web-shell/blob/main/web-shell.png"></center>
 
 <!-- Thank You -->
 <h1 align="center">😍 THANK YOU FOR VISITING 💖</h1>
