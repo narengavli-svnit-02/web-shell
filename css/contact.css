@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 25px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    width: 50%;
+    margin-top: 6px;
+    justify-content: space-around;
+}
+
+.row {
+    display: flex;
+    font-size: large;
+}
+
+iframe {
+    width: 100%;
+    border: solid black 2px;
+}
+
+.col-1 {
+    padding: 2vh 2vw;
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 840px) {
+
+    .row {
+        flex-direction: column;
+    }
+
+    .column,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 1vh;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+}

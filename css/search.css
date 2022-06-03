@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+/* search bar css  */
+.search_btn {
+    margin: 3vh 0vw;
+}
+
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* output css  */
+
+H2 {
+    text-align: center;
+}
+
+.output {
+    display: flex;
+    justify-content: space-around;
+    /* border: black solid 2px; */
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
+    width: 100%;
+    padding: 1vh 1vw;
+    font-size: larger;
+
+    /* scroll bar  */
+    height: 510px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
